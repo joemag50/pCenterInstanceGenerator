@@ -28,9 +28,17 @@ public class Main
 			return;
 		}
 		
-		double facilities = m.ReadInt("Percentage of facilities?");
+		double facilities = m.ReadDouble("Percentage of facilities?");
 		
 		if (facilities <= 0)
+		{
+			System.out.println("Must be greater than 0");
+			return;
+		}
+		
+		double p = m.ReadDouble("Percentage of active facilities?");
+		
+		if (p <= 0)
 		{
 			System.out.println("Must be greater than 0");
 			return;
@@ -44,8 +52,8 @@ public class Main
 			return;
 		}
 		
-		//Generator g = new Generator(sufix, instances, items, vmax, vmin, wmax, wmin, alfa);
-		//g.GenerateFiles();
+		Generator g = new Generator(sufix, instances, clients, facilities, p, x_y);
+		g.GenerateFiles();
 		
 		System.out.println("Ready");
 	}
