@@ -1,7 +1,21 @@
-#  Value of active facilities
+# P-Center Instance Generator
+
+### Input
+
+"How many instances?"
+"How many Clients?"
+"Percentage of facilities?"
+"Percentage of active facilities?"
+"Size of map?"
+
+
+### Output
+
+```
+# Valor de P
 P
 
-# Distances clients vs sites
+# Distancias clientes vs sites
 10 10 10 10 10
 10 10 10 10 10
 10 10 10 10 10
@@ -15,14 +29,14 @@ P
 10 10 10 10 10
 10 10 10 10 10
 
-# Distances sites vs sites
+# Distancias sites vs sites
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 
-# Clients positions
+# Posiciones clientes
 10 10
 10 10
 10 10
@@ -36,9 +50,10 @@ P
 10 10
 10 10
 
-# Sites positions
+# Posiciones sites
 55 55
 55 55
 55 55
 55 55
 55 55
+```
