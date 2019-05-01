@@ -2,11 +2,11 @@
 
 ### Input
 
-"How many instances?"
-"How many Clients?"
-"Percentage of facilities?"
-"Percentage of active facilities?"
-"Size of map?"
+"How many instances?"  
+"How many Clients?"  
+"Percentage of facilities?"  
+"Percentage of active facilities?"  
+"Size of map?"  
 
 
 ### Output
