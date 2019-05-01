@@ -12,10 +12,10 @@
 ### Output
 
 ```
-# Valor de P
+# Value of active facilities
 P
 
-# Distancias clientes vs sites
+# Distances clients vs sites
 10 10 10 10 10
 10 10 10 10 10
 10 10 10 10 10
@@ -29,14 +29,14 @@ P
 10 10 10 10 10
 10 10 10 10 10
 
-# Distancias sites vs sites
+# Distances sites vs sites
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 55 55 55 55 55
 
-# Posiciones clientes
+# Clients positions
 10 10
 10 10
 10 10
@@ -50,10 +50,11 @@ P
 10 10
 10 10
 
-# Posiciones sites
+# Sites positions
 55 55
 55 55
 55 55
 55 55
 55 55
+
 ```
